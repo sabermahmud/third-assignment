@@ -212,20 +212,22 @@
     <div class="mt-5 pt-5"></div>
     <!-- explore -->
     <section id="explore" class="d-flex justify-content-center">
-        <div class="card mb-3" style="max-width: 540px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="images/images/working.png" class="img-fluid rounded-start" alt="...">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                </div>
+      <div class="container">
+        <div class="card mb-3 ">
+          <div class="row g-0">
+            <div class="col-md-6">
+              <img src="images/images/working.png" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-6">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
               </div>
             </div>
           </div>
+        </div>
+      </div>
     </section>
     <!-- explore -->
     <div class="mt-5 pt-5"></div>
@@ -239,7 +241,42 @@
                     <p class="card-text ">With supporting text below as a natural lead-in to additional content.</p>
                 </div>
                   <div class="button m-4 p-2">
-                    <a href="#" class="btn btn-success">Register now</a>
+                    <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                      <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalToggleLabel">Registration Form</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <form>
+                              <div class="mb-3">
+                                <label for="exampleInputname" class="form-label">Your Full Name</label>
+                                <input type="text" class="form-control" id="exampleInputname" aria-describedby="emailHelp">
+                                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                              </div>
+                              <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                              </div>
+                              <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1">
+                              </div>
+                              <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                              </div>
+                            </form>
+                          </div>
+                          <div class="modal-footer">
+                            <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Submit</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <a class="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Register Now</a>
                   </div>
                 </div>
               </div>  
@@ -249,23 +286,15 @@
     <div class="mt-5 pt-5"></div>
     <!-- Our Success -->
     <section>
-        
-        <div class="container">
+          <div class="container">
             <h1> Our Successfull
                 Students
             </h1>
             <p>It is a long established fact that a reader will be distracted by the
                 readable content of a page when looking at its layout.</p>
-            <div class="row row-cols-1 row-cols-md-2 g-4">
-                <div class="col">
-                  <div class="card">
-                    <img src="images/images/student/student-4.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    </div>
-                  </div>
-                </div>
+              <div class="row">
+                  <div class="col-12 col-md-12 col-lg-6 col-xl-3 col-xxl-3">
+            <div class="row g-2">
                 <div class="col">
                   <div class="card">
                     <img src="images/images/student/student-1.png" class="card-img-top" alt="...">
@@ -275,15 +304,23 @@
                     </div>
                   </div>
                 </div>
+              </div>
+                  </div>
+                  <div class="col-12 col-md-12 col-lg-6 col-xl-3 col-xxl-3">
+            <div class="row g-2">
                 <div class="col">
                   <div class="card">
                     <img src="images/images/student/student-2.png" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                     </div>
                   </div>
                 </div>
+              </div>
+                  </div>
+                  <div class="col-12 col-md-12 col-lg-6 col-xl-3 col-xxl-3">
+            <div class="row g-2">
                 <div class="col">
                   <div class="card">
                     <img src="images/images/student/student-3.png" class="card-img-top" alt="...">
@@ -294,9 +331,25 @@
                   </div>
                 </div>
               </div>
-        </div>
+                  </div>
+                  <div class="col-12 col-md-12 col-lg-6 col-xl-3 col-xxl-3">
+            <div class="row g-2">
+                <div class="col">
+                  <div class="card">
+                    <img src="images/images/student/student-4.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+                  </div>
+            </div>
+          </div>
     </section>
     <!-- Our Success -->
+    <div class="mt-5 pt-5"></div>
     <!-- students feedback -->
     <!-- students feedback -->
     <!-- Frequently Asked Questions -->
