@@ -39,7 +39,7 @@
                   Our Success
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Our Successfull
+                  <li><a class="dropdown-item" href="#successful">Our Successfull
                     Students</a></li>
                   <li><a class="dropdown-item" href="#">Students Feedback
                 </a></li>
@@ -204,6 +204,9 @@
                     </div>
                   </div>
             </div>
+            <div class="button mt-5 d-flex justify-content-center">
+              <button type="button" class="btn btn-success px-5">View All</button>
+            </div> 
         </div>
         </div>
 
@@ -240,44 +243,46 @@
                     <h5 class="card-title text-success">Ready to join?</h5>
                     <p class="card-text ">With supporting text below as a natural lead-in to additional content.</p>
                 </div>
+                <!-- Modal -->
                   <div class="button m-4 p-2">
                     <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
                       <div class="modal-dialog modal-dialog-centered">
                         <div class="modal-content">
-                          <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalToggleLabel">Registration Form</h5>
+                          <div class="modal-header bg-success bg-opacity-10">
+                            <h5 class="modal-title text-success" id="exampleModalToggleLabel">Registration Form</h5>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                           </div>
                           <div class="modal-body">
                             <form>
                               <div class="mb-3">
-                                <label for="exampleInputname" class="form-label">Your Full Name</label>
-                                <input type="text" class="form-control" id="exampleInputname" aria-describedby="emailHelp">
+                                <label for="exampleInputname" class="form-label ">Your Full Name</label>
+                                <input type="text" class="form-control bg-success bg-opacity-10" id="exampleInputname" aria-describedby="emailHelp">
                                 <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                               </div>
                               <div class="mb-3">
                                 <label for="exampleInputEmail1" class="form-label">Email address</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                <input type="email" class="form-control bg-success bg-opacity-10" id="exampleInputEmail1" aria-describedby="emailHelp">
                                 <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                               </div>
                               <div class="mb-3">
                                 <label for="exampleInputPassword1" class="form-label">Password</label>
-                                <input type="password" class="form-control" id="exampleInputPassword1">
+                                <input type="password" class="form-control bg-success bg-opacity-10" id="exampleInputPassword1">
                               </div>
                               <div class="mb-3 form-check">
-                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <input type="checkbox" class="form-check-input bg-success bg-opacity-10" id="exampleCheck1">
                                 <label class="form-check-label" for="exampleCheck1">Check me out</label>
                               </div>
                             </form>
                           </div>
                           <div class="modal-footer">
-                            <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Submit</button>
+                            <button class="btn btn-success" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Submit</button>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <a class="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Register Now</a>
+                    <a class="btn btn-success" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Register Now</a>
                   </div>
+                <!-- Modal -->
                 </div>
               </div>  
         </div>
@@ -285,7 +290,7 @@
     <!-- Registration -->
     <div class="mt-5 pt-5"></div>
     <!-- Our Success -->
-    <section>
+    <section id="successful">
           <div class="container">
             <h1> Our Successfull
                 Students
@@ -345,6 +350,9 @@
                 </div>
               </div>
                   </div>
+                  <div class="button mt-5 d-flex justify-content-center">
+                    <button type="button" class="btn btn-success px-5">View All</button>
+                  </div>
             </div>
           </div>
     </section>
@@ -352,10 +360,80 @@
     <div class="mt-5 pt-5"></div>
     <!-- students feedback -->
     <!-- students feedback -->
+    <div class="mt-5 pt-5"></div>
+    <!-- Frequently Asked  -->
+    <section class="bg-success bg-opacity-10 pb-5">
+      <div class="container ">
+         <div class= "text-center">
+          <h1 >Frequently Asked Questions</h1>
+          <hr class="w-100">
+         </div>
+       <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-lg-6 col-xl-6">
+            <img src="images/questions-concept-.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-md-12 col-lg-6 col-xl-6">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header text-success" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    what is the difference between flexbox and grid
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Grid is made for two-dimensional layout while Flexbox is for one. This means Flexbox can work on either row or columns at a time, but Grids can work on both. Flexbox, gives you more flexibility while working on either element (row or column). HTML markup and CSS will be easy to manage in this type of scenario.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    what are the differences between bootstrap and tailwind?
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    The main difference between TailwindCSS and Bootstrap is that Tailwind CSS is not a UI kit. Unlike UI kits such as Bootstrap, Bulma, and Foundation, Tailwind CSS doesn't have a default theme or built-in UI components. Instead, it comes with predesigned widgets you can use to build your site from scratch
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    What is the CSS box model ?
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    What is the semantic tag ?
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    A semantic element clearly describes its meaning to both the browser and the developer. Examples of semantic elements: "form", "table", and "article". they clearly define their content.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+       </div>
+      </div>
+    </section>
     <!-- Frequently Asked Questions -->
-    <!-- Frequently Asked Questions -->
+    <div class="mt-5 pt-5"></div>
     <!-- Trusted channels -->
     <!-- Trusted channels -->
+    <div class="mt-5 pt-5"></div>
     <!-- footer -->
     <!-- footer -->
 
